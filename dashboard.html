@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="dashboard.css">
+<title>Dashboard</title>
+</head>
+
+<body>
+    <!-- ----------------SIDEBAR----------------- -->
+    <section id="sidebar">
+        <a href="dashboard.html" class="brand"><img src="img/logo BackEN EV [Color].png" alt="">
+        </a>
+        <!-- --------SIDE MENU------------ -->
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="active" ><span class="material-symbols-rounded">
+                    dashboard
+                    </span>Dashboard</i>
+                </a>
+            </li>
+            <!-- -------------------- -->
+            <li>
+                <a href="#"><span class="material-symbols-rounded">
+                 Map
+                    </span>Map</i>
+                </a>
+            </li>
+            <!-- <li class="divider">Main</li> -->
+            <li>
+                <a href="#"><span class="material-symbols-rounded">
+                    person
+                    </span>User Management<span class="material-symbols-rounded chevron-right">
+                        chevron_right
+                        </span></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Module</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Role</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>User Group</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>User Login</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Brand Group</a></li>
+
+                </ul>
+            </li>
+            <!-- -------------------- -->
+            <li>
+                <a href="#"><span class="material-symbols-rounded">
+                    charging_station
+                    </span>Station Management<span class="material-symbols-rounded chevron-right">
+                        chevron_right
+                        </span></a>
+                <ul class="side-dropdown">
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Brands</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Staitons</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Chargers</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Connector Type</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Charge Box</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Mapping Charger</a></li>
+                </ul>
+
+            </li>
+            <!-- ----------------------- -->
+            <li>
+                <a href="#"><span class="material-symbols-rounded">
+                 description
+                    </span>Report</i>
+                </a>
+            </li>
+            <!-- -------------------- -->
+            <li>
+                <a href="#"><span class="material-symbols-rounded">
+                    request_quote
+                    </span>Back Office</i>
+                </a>
+            </li>
+            <!-- --------rfids mangement------------ -->
+            <li>
+                <a href="RFID.html"><span class="material-symbols-rounded">
+                    sensors
+                    </span>RFIDs Management<span class="material-symbols-rounded chevron-right">
+                        chevron_right
+                        </span></a>
+                <ul class="side-dropdown">
+                    <li><a href="RFID.html"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>EMSPs</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Users</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>RFIDs</a></li>
+                </ul>
+            </li>
+            <!-- ------settings------------- -->
+            <li>
+                <a href="settings.html"><span class="material-symbols-rounded">
+                    settings
+                    </span>Settings<span class="material-symbols-rounded chevron-right">
+                        chevron_right
+                        </span></a>
+                <ul class="side-dropdown">
+                    <li><a href="settings.html"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>User Info</a></li>
+                    <li><a href="changepwd.html"><span class="material-symbols-outlined">
+                        fiber_manual_record
+                        </span>Change Password</a></li>
+                </ul>
+            </li>
+            <!-- -------------------- -->
+            <li>
+                <a href="login.html"><span class="material-symbols-rounded">
+                    logout
+                    </span> Logout</i>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+    <!-- ----------------SIDEBAR END---------------- -->
+     <!-- ----------------NAVBAR----------------- -->
+     <header class="top-header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="navbar-brand">
+            <h1>Dashboard</h1>
+          </div>
+          <div class="navbar-nav">
+            <div class="user-profile">
+              <h3>Onpreeya Aiengrod</h3>
+              <img src="img/ff.jpg" alt="Profile Picture" class="rounded-circle" width="40" height="40">
+            </div>
+            <div class="dark-mode">
+                <span class="material-symbols-rounded">
+                    dark_mode
+                    </span>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+            <div class="header">
+              <header class="top-header">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="navbar-brand">
+                    <h1>Dashboard</h1>
+                  </div>
+                  <div class="navbar-nav">
+                    <div class="user-profile">
+                      <h3>Onpreeya Aiengrod</h3>
+                      <img src="img/ff.jpg" alt="Profile Picture" class="rounded-circle" width="40" height="40">
+                    </div>
+                    <div class="dark-mode">
+                        <span class="material-symbols-rounded">
+                            dark_mode
+                            </span>
+                    </div>
+                  </div>
+                </nav>
+              </header>
+            </div>
+      
+            <div class="content">
+                <div class="cards">
+                    <div class="card">
+                        <div class="box">
+                          <h4>in-use</h4>
+                            <h1>2194</h1>
+                            <h3>Charge Head</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="students.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>53</h1>
+                            <h3>Teachers</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="teachers.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>5</h1>
+                            <h3>Schools</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="schools.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>350000</h1>
+                            <h3>Income</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="income.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-2">
+                    <div class="recent-payments">
+                        <div class="title">
+                            <h2>Recent Payments</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <!-- <tr>
+                                <th>Name</th>
+                                <th>School</th>
+                                <th>Amount</th>
+                                <th>Option</th>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>St. James College</td>
+                                <td>$120</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>St. James College</td>
+                                <td>$120</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>St. James College</td>
+                                <td>$120</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>St. James College</td>
+                                <td>$120</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>St. James College</td>
+                                <td>$120</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>St. James College</td>
+                                <td>$120</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr> -->
+                        </table>
+                    </div>
+                    <div class="new-students">
+                        <div class="title">
+                            <h2>New Students</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <tr>
+                                <th>Profile</th>
+                                <th>Name</th>
+                                <th>option</th>
+                            </tr>
+                            <tr>
+                                <td><img src="user.png" alt=""></td>
+                                <td>John Steve Doe</td>
+                                <td><img src="info.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user.png" alt=""></td>
+                                <td>John Steve Doe</td>
+                                <td><img src="info.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user.png" alt=""></td>
+                                <td>John Steve Doe</td>
+                                <td><img src="info.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user.png" alt=""></td>
+                                <td>John Steve Doe</td>
+                                <td><img src="info.png" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+
+      
+
+    <script src="path/to/bootstrap.bundle.min.js"></script> 
+    <script src="dashboard.js"></script>    
+</body>
+
+</html>
+
